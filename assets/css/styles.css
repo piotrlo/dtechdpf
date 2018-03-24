@@ -628,3 +628,11 @@ h2{
   text-align: center;
   text-decoration: none;
 }
+
+.form-row {
+  color: white;
+}
+
+#contact p {
+  color: white;
+}
