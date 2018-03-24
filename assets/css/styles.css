@@ -587,3 +587,44 @@ h2{
 .map{
   border-bottom: 0;
 }
+
+/* Edited by Mike */
+
+#about {
+  background-color: #222222;
+  color: #F5F7FA;
+}
+
+
+#prices {
+  background-color: #222222;
+}
+
+.features-clean .item .icon {
+  color: #152934;
+}
+
+.text-primary {
+  color: #152934;
+}
+
+#mapButton {
+  background-color: #5A6872;
+}
+
+#mapButton:hover {
+  background-color: #152934;
+}
+
+.mapBtn {
+  color: #F5F7FA;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.mapBtn:hover {
+  color: #F5F7FA;
+  text-align: center;
+  text-decoration: none;
+}
