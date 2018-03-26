@@ -2,6 +2,7 @@
 #222222  - ciemnoszary
 #373737  - średnioszary
 #016DAF  - niebieski
+#2ecc71 - zielony
 
 */
 
@@ -331,7 +332,7 @@ p{
 .navigation-clean-search .navbar-brand {
   font-weight: bold;
     padding: 0 10px;
-    color: #152934;
+    color: #2ecc71;
     border: 3px solid #152934;
     font-family: 'Montserrat', sans-serif;
 }
@@ -583,7 +584,7 @@ h4 {
 }
 
 section {
-  border-bottom: 3px dotted rgba(0,0,0,0.125);
+  border-bottom: 4px dotted #2ecc71;
   padding-bottom: 40px;
 }
 
@@ -606,11 +607,6 @@ h2{
 }
 
 /* Edited by Mike */
-
-#about {
-  background-color: #222222;
-  color: #F5F7FA;
-}
 
 
 #prices {
@@ -637,7 +633,7 @@ button {
 }
 
 button:hover {
-  background-color: #152934;
+  background-color: #2ecc71;
 }
 
 .mapBtn {
@@ -684,4 +680,12 @@ i:hover { transform: scale(1.2); }
 
 li {
   margin-bottom: 15px;
+}
+
+.heading{
+  background: #2ecc71;
+}
+
+.fa-li {
+  font-size: 30px;
 }
