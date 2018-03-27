@@ -1,13 +1,13 @@
 /*KOLORY
-#222222  - ciemnoszary
+#313437  - ciemnoszary
 #373737  - średnioszary
 #016DAF  - niebieski
 #2ecc71 - zielony
-
+#5A6872 - button
 */
 
 body {
-  color: #222;
+  color: #313437;
   overflow-x:hidden;
   font-family: 'Raleway', sans-serif;
 }
@@ -275,19 +275,20 @@ p{
 
 /*MAP*/
 
+#map{
+  padding-top: 40px;
+}
+
 .map-clean {
   color:#313437;
   background-color:#fff;
 }
 
-.map-clean p {
-  color:#7d8285;
-}
 
 .map-clean h2 {
   font-weight:bold;
   margin-bottom:40px;
-  padding-top:40px;
+
   color:inherit;
 }
 
@@ -309,6 +310,20 @@ p{
   background-color:#eee;
 }
 
+.contact{
+  padding-bottom: 20px;
+}
+
+.contact i{
+  text-align: center;
+  font-size:30px;
+  width: 40px;
+}
+
+.icon-hidden{
+  visibility:hidden;
+}
+
 /*NAVIGATION*/
 
 .navigation-clean-search {
@@ -325,7 +340,7 @@ p{
 @media (min-width:768px) {
   .navigation-clean-search {
     padding-top:1rem;
-    padding-bottom:1rem;
+    padding-bottom:0.5rem;
   }
 }
 
@@ -338,7 +353,7 @@ p{
 }
 
 .navigation-clean-search .navbar-brand:hover {
-  color:#222;
+  color:#313437;
 }
 
 .navigation-clean-search .navbar-toggler {
@@ -382,7 +397,7 @@ p{
 }
 
 .navigation-clean-search.navbar-light .navbar-nav .nav-link:focus, .navigation-clean-search.navbar-light .navbar-nav .nav-link:hover {
-  color:#37434d !important;
+  color:#313437 !important;
   background-color:transparent;
   transform: scale(1.1); 
   font-weight: bold;
@@ -528,6 +543,12 @@ form#contact-form {
   box-shadow:0px 5px 6px rgba(0,0,0,0.3);
 }
 
+.btn:focus, .btn.focus {
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(46, 204, 113,0.25);
+    box-shadow: 0 0 0 0.2rem rgba(46, 204, 113,0.25);
+}
+
 .btnTwo {
   position:relative;
   width:165px;
@@ -608,15 +629,6 @@ h2{
 
 /* Edited by Mike */
 
-
-#prices {
-  background-color: #222222;
-}
-
-#prices h2{
-  color: #fff;
-}
-
 .features-clean .item .icon {
   color: #152934;
 }
@@ -653,6 +665,10 @@ button:hover {
   color: white;
 }
 
+.submit-row{
+  text-align: center;
+}
+
 #contact p {
   color: white;
 }
@@ -668,7 +684,7 @@ button:hover {
 
 p.navbar-text{
     padding: 15px 10px 0 0;
-    color: #152934;
+    color: #313437!important;
     font-size: 1.5em;
     font-family: 'Montserrat', sans-serif;
 }
@@ -678,7 +694,7 @@ p.navbar-text{
 i { transition: all .2s ease-in-out; }
 i:hover { transform: scale(1.2); }
 
-li {
+#how li {
   margin-bottom: 15px;
 }
 
