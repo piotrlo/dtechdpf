@@ -20,5 +20,6 @@ if (this.hash !== "") {
     // window.location.hash = hash;
   });
 } // End if
+$('.carousel').carousel()
 });
 });
