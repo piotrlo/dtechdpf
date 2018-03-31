@@ -344,12 +344,16 @@ p{
   }
 }
 
-.navigation-clean-search .navbar-brand {
+/*.navigation-clean-search .navbar-brand {
   font-weight: bold;
     padding: 0 10px;
     color: #2ecc71;
     border: 3px solid #152934;
     font-family: 'Montserrat', sans-serif;
+}
+*/
+.navigation-clean-search .navbar-brand img{
+  width: 180px;
 }
 
 .navigation-clean-search .navbar-brand:hover {
