@@ -2,17 +2,43 @@
 <html>
 
 <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53828794-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-53828794-2');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="#digitalexposure">
-    <meta name="description" content="Regeneracja filtrów DPF Reda">
-    <title>dtechdpf</title>
+    <meta name="description" content="Regeneracja filtrów DPF Rumia, Reda, Gdynia">
+    <title>D-TECH DPF Rumia - Regeneracja filtrów cząstek stałych</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <link rel="assets/img/ico/apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="assets/img/ico/apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="assets/img/ico/apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="assets/img/ico/apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="assets/img/ico/apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="assets/img/ico/apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="assets/img/ico/apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="assets/img/ico/apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="assets/img/ico/apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/ico/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -331,41 +357,41 @@
                     <h2>Napisz do nas</h2>
                     <p>Wyślij do nas wiadomość przy pomocy formularza. Odpowiemy na nią jak tylko będzie możliwe</p>
                 </div>
-                <form action="assets/php/contact.php " method="post " id="contact-form ">
+                <form action="assets/php/contact.php" method="post " id="contact-form">
                     <div class="messages "></div>
                     <div class="controls ">
-                        <div class="form-row ">
+                        <div class="form-row">
                             <div class="col-md-6 ">
-                                <div class="form-group ">
-                                    <label for="form_name ">Imię* </label>
-                                    <input class="form-control " type="text " name="name " required=" " placeholder="Wpisz swoję imię* " id="form_name " data-error="Vorname erforderlich. ">
+                                <div class="form-group">
+                                    <label for="form_name">Imię* </label>
+                                    <input class="form-control" type="text" name="name" required="" placeholder="Wpisz swoję imię*" id="form_name" data-error="Wpisz swoję imię">
                                     <div class="help-block with-errors "></div>
                                 </div>
                             </div>
-                            <div class="col-md-6 ">
-                                <div class="form-group ">
-                                    <label for="form_email ">E-Mail* </label>
-                                    <input class="form-control " type="email " name="email " required=" " placeholder="Podaj adres twój adres mail * " id="form_email " data-error="Vorname erforderlich. ">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_email">E-Mail* </label>
+                                    <input class="form-control" type="email" name="email" required="" placeholder="Podaj adres twój adres mail *" id="form_email" data-error="wpisz swój adres email ">
                                     <div class="help-block with-errors "></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="form-row ">
-                        <div class="col-md-12 ">
-                            <div class="form-group ">
-                                <label for="form_message ">Wiadomość* </label>
-                                <textarea class="form-control " type="text " name="message " required=" " placeholder="Tutaj wpisz swoją wiadomość* " id="form_message " data-error="Nachricht erforderlich. " rows="4 "></textarea>
+                    <div class="form-row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="form_message">Wiadomość* </label>
+                                <textarea class="form-control" type="text" name="message" required="" placeholder="Tutaj wpisz swoją wiadomość*" id="form_message" data-error="wpisz treść wiadomości" rows="4"></textarea>
                                 <div class="help-block with-errors "></div>
                             </div>
                         </div>
                         <div class="col-md-12 submit-row">
-                            <button class="btn d-inline-block btn-send " type="submit " value="Senden ">Wyślij</button>
+                            <button class="btn d-inline-block btn-send" type="submit" value="Wysłano">Wyślij</button>
                         </div>
                     </div>
-                    <div class="form-row ">
+                    <div class="form-row">
                         <div class="col-md-12 submit-row">
-                            <p class="text-muted "><strong>*</strong> wymagane</p>
+                            <p class="text-muted"><strong>*</strong> wymagane</p>
                         </div>
                     </div>
                 </form>
@@ -374,7 +400,7 @@
         </div>
         </div>
     </section>
-    <div class="footer-basic " id="footer ">
+    <div class="footer-basic" id="footer ">
         <footer>
             <ul class="list-inline ">
                 <li class="list-inline-item "><a href="#about">O nas</a></li>
@@ -391,15 +417,7 @@
     <script src="assets/js/PHP-Contact-Form-dark.js "></script>
     <script src="assets/js/PHP-Contact-Form-dark1.js "></script>
     <script src="assets/js/script.js "></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53828794-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'UA-53828794-2');
-    </script>
 </body>
 
 </html>
