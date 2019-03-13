@@ -1,0 +1,23 @@
+{
+  "name": "dtechdpf",
+  "version": "1.0.0",
+  "description": "one-page site based on bootstrap",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piotrlo/dtechdpf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piotrlo/dtechdpf/issues"
+  },
+  "homepage": "https://www.dtechdpf.pl"
+}
